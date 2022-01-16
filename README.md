@@ -9,7 +9,7 @@ cd 9/community/
 
 docker build -t sonarqube-custom .
 
-docker run -d -p 9000:900 sonarqube-custom
+docker run -d -p 9000:9000 sonarqube-custom
 
 ```
 
